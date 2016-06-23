@@ -135,3 +135,8 @@ bob: [-0.50716257 -0.08670964  0.24690872]
 red: [-0.88534838 -1.24907482 -1.79847264]
 bash-3.2# 
 </pre>
+
+9. Consideration(s)<BR>
+- RNN is on theano, so tensorflow should use SimpleRNN instead.<BR>
+- I did not understand why 3d distribution of points differs original author now(sorry).<BR>
+- why differs points distribution, further research(update in someday if i got).<BR>
