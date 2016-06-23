@@ -42,6 +42,8 @@ Traceback (most recent call last):<BR>
   https://www.scipy.org/scipylib/building/macosx.html<BR>
   http://stackoverflow.com/questions/14821297/scipy-build-install-mac-osx<BR>
   https://github.com/fchollet/keras/issues/1303<BR>
+  download scipy from url shown bellow.<BR>
+  https://github.com/scipy/scipy<BR>
   download gfortran from bellow URL<BR>
   https://r.research.att.com/tools/<BR>
   gcc-4.2 (Apple build 5666.3) with GNU Fortran 4.2.4 for Mac OS X 10.7 (Lion):gcc-42-5666.3-darwin11.pkg <BR>
@@ -51,6 +53,8 @@ Traceback (most recent call last):<BR>
   export FFLAGS=-ff2c<BR>
   alias gfortran="/usr/bin/gfortran-4.2"<BR>
   ln -s /usr/bin/gfortran-4.2 /usr/local/bin/gfortran<BR>
+  and do your misc preparation you need to build scipy.<BR>
+  Then build it.<BR>
   python setup.py build<BR>
 5. pip uninstall scipy<BR>
 6. python setup.py install<BR>
