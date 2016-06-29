@@ -137,10 +137,10 @@ bash-3.2#
 </pre>
 
 9. Consideration(s)<BR>
-9.1 RNN is on theano, so tensorflow should use SimpleRNN instead.<BR>
-9.2 I did not understand why 3d distribution of points differs original author now(sorry).<BR>
-9.3 why differs points distribution, further research(update in someday if i got).<BR>
-9.4 pip install scipy --upgrade --ignore-installed cause no change (3d points differ)<BR>
+(1) RNN is on theano, so tensorflow should use SimpleRNN instead.<BR>
+(2) I did not understand why 3d distribution of points differs original author now(sorry).<BR>
+(3) why differs points distribution, further research(update in someday if i got).<BR>
+(4) pip install scipy --upgrade --ignore-installed cause no change (3d points differ)<BR>
 residue is RNN(teano) vs SimpleRNN... further reseach :-).<BR>
 <BR>
 10. Further Consideration(s)<BR>
