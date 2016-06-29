@@ -142,3 +142,22 @@ bash-3.2#
 9.3 why differs points distribution, further research(update in someday if i got).<BR>
 9.4 pip install scipy --upgrade --ignore-installed cause no change (3d points differ)<BR>
 residue is RNN(teano) vs SimpleRNN... further reseach :-).<BR>
+<BR>
+10. Further Consideration(s)<BR>
+To improve accuracy and cut off loss, tweaked source code.<BR>
+Then, I got result shown bellow.<BR>
+<BR>
+Train on 6 samples, validate on 2 samples<BR>
+Epoch 1/5500<BR>
+6/6 [==============================] - 0s - loss: 7.5065 - val_loss: 0.5866<BR>
+(snip)<BR>
+Epoch 5500/5500<BR>
+6/6 [==============================] - 0s - loss: 0.0418 - val_loss: 0.3357<BR>
+sarah: [ 0.00385498  0.01372873 -0.0130481 ]<BR>
+sam: [-0.97111976  0.33307493  0.57458359]<BR>
+hannah: [ 1.12190282 -0.43887946 -0.69906741]<BR>
+is: [-0.20908281  0.41405582  0.29519755]<BR>
+green: [-0.20227642  0.4038054   0.31272194]<BR>
+not: [-0.52407306  0.0273238   0.10946918]<BR>
+bob: [ 1.45334864 -0.0892938  -0.44378492]<BR>
+red: [-0.4351255   0.13918306  0.16001579]<BR>
