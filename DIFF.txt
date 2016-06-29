@@ -1,0 +1,33 @@
+diff test.py org.py|grep -v "[<>] \#" > DIFF
+
+1,6d0
+43,46d36
+< from theano.tensor import unbroadcast
+< RNN = recurrent.LSTM
+48,61c38
+< print(words)
+< print(sentences_lemmatized)
+< print(sentences_array)
+<
+---
+> RNN = recurrent.LSTM
+64,67c41
+< input_embedding =Embedding(n_words, n_embed_dims)(input_sentence)
+< input_embedding = unbroadcast(input_embedding,0)
+---
+> input_embedding = Embedding(n_words, n_embed_dims)(input_sentence)
+71,73d44
+75c46
+< predict_green.trainable = True
+---
+>
+77,79c48
+< hist = predict_green.fit([sentences_array], [is_green], nb_epoch=5500, verbose=1,validation_split=0.2)
+< print(hist.history)
+< print(predict_green.layers[1].W.get_value())
+---
+> predict_green.fit([sentences_array], [is_green], nb_epoch=5000, verbose=1)
+81,82c50
+---
+>
+84,85d51
