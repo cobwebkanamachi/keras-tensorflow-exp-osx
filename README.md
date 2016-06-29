@@ -184,4 +184,8 @@ Python 2.7.9 (v2.7.9:648dcafa7e5f, Dec 10 2014, 10:10:46) <BR>
 >>> import numpy as n<BR>
 >>> n.__version__<BR>
 '1.11.0'<BR>
+(11) memory & cpu<BR>
+CPU: 2.3ghz Intel Core i7<BR>
+Memory: 4GB 1600mhz DDR3<BR>
+other is normal Mac Mini(Late 2012)<BR>
 </pre>
