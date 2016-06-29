@@ -161,3 +161,27 @@ green: [-0.20227642  0.4038054   0.31272194]<BR>
 not: [-0.52407306  0.0273238   0.10946918]<BR>
 bob: [ 1.45334864 -0.0892938  -0.44378492]<BR>
 red: [-0.4351255   0.13918306  0.16001579]<BR>
+circumstances:<BR>
+(1) used Theano with keras.<BR>
+(2) memory wiped with memory cleanning tool on osx.<BR>
+(3) tested osx native env.<BR>
+(4) used test.py on this repos.<BR>
+(5) diff to original is on DIFF.txt.<BR>
+(6) original goes wrong result on my environment, so tweak<BR>
+<pre>
+(7) python version<BR>
+Python 2.7.9 (v2.7.9:648dcafa7e5f, Dec 10 2014, 10:10:46) <BR>
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin<BR>
+(8) keras version<BR>
+>>> import keras as k<BR>
+>>> k.__version__<BR>
+'1.0.4'<BR>
+(9) theano version<BR>
+>>> import theano as t<BR>
+>>> t.__version__<BR>
+'0.8.2'<BR>
+(10) numpy version<BR>
+>>> import numpy as n<BR>
+>>> n.__version__<BR>
+'1.11.0'<BR>
+</pre>
