@@ -204,4 +204,10 @@ a tensor specified as input to "model_3" was not an Input tensor, it was generat
 </pre>
 (2) test.py and input_1 issue<BR>
 under construction:-)<BR>
+(3) important fact
+i tested with several combinations.
+(3-1) ubuntu on vbox on osx
+(3-2) docker on osx(vbox)
+but, result matrix were not similar with original one, so i decided tweak code and back to osx env.
+
 
